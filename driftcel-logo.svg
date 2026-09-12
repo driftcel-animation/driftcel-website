@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+<title id="title">Driftcel Animation Studio</title><desc id="desc">Driftcel open storybook and rising star emblem</desc>
+<defs>
+ <radialGradient id="driftWord" cx="30%" cy="25%" r="90%"><stop offset="0" stop-color="#00cfff"/><stop offset=".45" stop-color="#0757ff"/><stop offset="1" stop-color="#002a99"/></radialGradient>
+ <linearGradient id="celWord" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffd21a"/><stop offset=".55" stop-color="#ff681f"/><stop offset="1" stop-color="#f52245"/></linearGradient>
+ <linearGradient id="book" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#002a99"/><stop offset=".55" stop-color="#0757ff"/><stop offset="1" stop-color="#00cfff"/></linearGradient>
+ <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd21a"/><stop offset=".55" stop-color="#ff681f"/><stop offset="1" stop-color="#f52245"/></linearGradient>
+</defs>
+<g font-family="Space Grotesk, Arial, sans-serif" text-anchor="start">
+ <text x="35" y="137" fill="#0270dd" font-size="128" font-weight="700" letter-spacing="-7">Drift</text>
+ <text x="275" y="137" fill="#fc742a" font-size="128" font-weight="700" letter-spacing="-7">cel</text>
+ <text x="42" y="188" fill="#102c76" font-size="34" font-weight="600" letter-spacing="10">ANIMATION STUDIO</text>
+</g>
+</svg>
