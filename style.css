@@ -381,3 +381,25 @@ p { margin: 0 0 1em; }
 .cursor-spark { position: fixed; z-index: 9998; width: 10px; height: 10px; margin: -5px 0 0 -5px; pointer-events: none; background: var(--amber);
   clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); animation: cursor-burst .6s ease-out forwards; }
 @keyframes cursor-burst { from { transform: translate(0, 0) scale(1.2); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) scale(.2) rotate(90deg); opacity: 0; } }
+
+/* ---------- Legal pages (privacy, terms) ---------- */
+.legal { padding: clamp(32px, 5vw, 64px) 0 clamp(64px, 8vw, 104px); background: linear-gradient(180deg, var(--mist), #fff 340px); }
+.legal-wrap { max-width: 820px; }
+.legal h1 { font-size: clamp(2.6rem, 6vw, 4.2rem); margin-bottom: .2em; }
+.legal-updated { color: var(--muted); font-weight: 700; margin-bottom: 32px; }
+.legal-summary { padding: 24px 28px; margin-bottom: 40px; background: #fff; border: 2px solid var(--line); border-left: 6px solid var(--orange); border-radius: var(--radius); }
+.legal-summary h2 { font-size: 1.35rem; margin-bottom: .5em; }
+.legal-summary ul { margin: 0; padding-left: 1.2em; }
+.legal-summary li { margin: .35em 0; }
+.prose h2 { font-size: clamp(1.4rem, 2.6vw, 1.75rem); margin: 2.2em 0 .6em; scroll-margin-top: calc(var(--nav-h) + 16px); }
+.prose h3 { font-size: 1.12rem; margin: 1.5em 0 .4em; color: var(--blue); }
+.prose p, .prose li { color: var(--ink); }
+.prose ul, .prose ol { padding-left: 1.3em; margin: 0 0 1em; }
+.prose li { margin: .4em 0; }
+.legal a:not(.btn):not(.back) { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.legal a:not(.btn):not(.back):hover { color: var(--navy); }
+.legal-company { margin: 14px 0 18px; padding: 18px 22px; background: var(--mist); border-radius: var(--radius-sm); }
+.legal-company p { margin: .2em 0; }
+.footer-legal-links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.form-note { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.5; }
+.form-note a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
