@@ -15,7 +15,7 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Driftcel Animation">
+<meta property="og:site_name" content="Driftcel">
 <meta property="og:title" content="Driftcel Animation · Stories with a pulse.">
 <meta property="og:description" content="An independent animation studio creating original stories, expressive characters and cinematic worlds.">
 <meta property="og:url" content="https://driftcel.com/">
@@ -31,17 +31,30 @@
 <link rel="stylesheet" href="/style.css">
 <script>document.documentElement.classList.add('js')</script>
 
+<!-- Brand signals for Google: site name + organisation. Add social profile URLs to "sameAs" once confirmed. -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Driftcel Animation",
-  "url": "https://driftcel.com/",
-  "logo": "https://driftcel.com/assets/brand/app-icon-512x512.png",
-  "slogan": "Stories with a pulse.",
-  "email": "info@driftcel.com",
-  "address": { "@type": "PostalAddress", "addressLocality": "New Delhi", "addressCountry": "IN" }
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Driftcel",
+    "alternateName": ["Driftcel Animation", "Driftcel Animations", "driftcel.com"],
+    "url": "https://driftcel.com/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Driftcel Animation",
+    "alternateName": ["Driftcel", "Driftcel Animations"],
+    "url": "https://driftcel.com/",
+    "logo": "https://driftcel.com/assets/brand/app-icon-512x512.png",
+    "slogan": "Stories with a pulse.",
+    "description": "Driftcel is an independent animation studio in New Delhi creating original stories, expressive characters and cinematic worlds.",
+    "email": "info@driftcel.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "New Delhi", "addressCountry": "IN" },
+    "sameAs": []
+  }
+]
 </script>
 </head>
 <body>
@@ -87,7 +100,7 @@
     </div>
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">Independent animation studio · New Delhi</p>
+        <p class="eyebrow">Driftcel Animation · Independent studio · New Delhi</p>
         <h1 id="hero-title">Stories with<br>a <span class="squiggle">pulse.</span></h1>
         <p class="lead">We dream up original worlds and the characters who live in them. Stories with rhythm, timing and heart, made to make yours beat a little faster.</p>
         <div class="actions">
