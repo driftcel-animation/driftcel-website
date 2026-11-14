@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="364.3 152.3 817.4 663.4"><title>Driftcel Animation</title><defs>
+  <radialGradient id="mc" cx="700" cy="590" r="380" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#0047A8"/>
+    <stop offset="0.55" stop-color="#0270E0"/>
+    <stop offset="1" stop-color="#0A8CF5"/>
+  </radialGradient>
+  <radialGradient id="ms" cx="975" cy="270" r="230" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFB40E"/>
+    <stop offset="0.5" stop-color="#FF6A00"/>
+    <stop offset="1" stop-color="#FE5202"/>
+  </radialGradient>
+</defs>
+<mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+  <rect width="1536" height="1024" fill="#fff"/>
+  <path d="M985 186C1006 262 1042 312 1148 340C1060 360 1030 412 1022 506C996 428 924 360 812 350C922 328 966 276 985 186Z" fill="#000" stroke="#000" stroke-width="34" stroke-linejoin="round"/>
+  
+</mask>
+<g mask="url(#mm)">
+  <path d="M505 790C447 790 401 748 401 698C401 664 415 638 437 622C407 596 391 558 391 520C391 425 473 349 578 349C628 349 672 367 706 401C720 413 744 416 760 405C784 392 808 385 834 385C934 385 1003 468 1022 580C1026 600 1028 616 1028 634C1028 720 962 790 880 790Z" fill="url(#mc)"/>
+  <circle cx="627" cy="569" r="82" fill="#FFFFFF"/>
+<circle cx="645" cy="560" r="52" fill="#001C4C"/>
+<circle cx="662" cy="538" r="17" fill="#FFFFFF"/>
+<circle cx="833" cy="569" r="80" fill="#FFFFFF"/>
+<circle cx="851" cy="560" r="52" fill="#001C4C"/>
+<circle cx="868" cy="538" r="17" fill="#FFFFFF"/>
+</g>
+<path d="M985 186C1006 262 1042 312 1148 340C1060 360 1030 412 1022 506C996 428 924 360 812 350C922 328 966 276 985 186Z" fill="url(#ms)" stroke="url(#ms)" stroke-width="14" stroke-linejoin="round"/></svg>
