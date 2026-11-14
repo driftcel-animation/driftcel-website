@@ -276,11 +276,9 @@ p { margin: 0 0 1em; }
 .footer-links, .footer-contact { display: grid; gap: 8px; }
 .footer a { color: #fff; text-decoration: none; }
 .footer a:hover { color: var(--amber); }
-.footer-legal { margin-top: 44px; padding-top: 22px; border-top: 1px solid rgba(207, 230, 255, .18); font-size: .92rem; line-height: 1.6; }
-.footer-company { margin: 0 0 4px; font: 600 1rem var(--display); color: #fff; }
-.footer-legal address { font-style: normal; color: #CFE6FF; max-width: 46em; }
-.footer-legal address span { color: var(--amber); font-weight: 700; }
-.footer-legal + .footer-base { margin-top: 18px; }
+.footer-company { margin: 14px 0 0; font: 600 1rem/1.3 var(--display); color: #fff; }
+.footer-contact address { font-style: normal; color: #CFE6FF; font-size: .92rem; line-height: 1.6; }
+.footer-contact address span { display: block; color: var(--amber); font-weight: 700; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; }
 .footer-base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 48px; padding-top: 22px; border-top: 1px solid rgba(207, 230, 255, .18); font-size: .92rem; }
 .footer-base p { margin: 0; }
 
