@@ -368,8 +368,8 @@ p { margin: 0 0 1em; }
 .drift-cursor { position: fixed; top: 0; left: 0; z-index: 9999; pointer-events: none; opacity: 0; transition: opacity .2s; will-change: transform; }
 .drift-cursor.is-visible { opacity: 1; }
 .drift-cursor.is-typing { opacity: 0; }
-.drift-cursor-dot { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 2px #fff; }
-.drift-cursor-svg { position: absolute; left: 2px; top: 2px; width: 46px; max-width: none; height: auto; overflow: visible; transform-origin: 0 0;
+.drift-cursor-dot { position: absolute; left: -5px; top: -5px; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 2px #fff; }
+.drift-cursor-svg { position: absolute; left: 3px; top: 3px; width: 58px; max-width: none; height: auto; overflow: visible; transform-origin: 0 0;
   filter: drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff) drop-shadow(0 1.5px 0 #fff) drop-shadow(0 -1.5px 0 #fff) drop-shadow(0 4px 6px rgba(0, 28, 76, .3));
   transition: transform .25s var(--ease); }
 .drift-cursor.is-hover .drift-cursor-svg { transform: scale(1.18) rotate(-6deg); }
